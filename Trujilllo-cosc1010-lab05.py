@@ -2,7 +2,7 @@
 # UWYO COSC 1010
 # Submission Date: 10/09/24
 # Lab 03 
-# Lab Section: 
+# Lab Section: 15
 # Sources, people worked with, help given to: 
 # Kaleb Moler
 #Jhett Carr
@@ -101,7 +101,7 @@ for temps_max in max_temps:
 min_temp = min_temps[0]
 for temps_min in min_temps:
    if temps_min < min_temp:
-       min_temps = temps_min
+       min_temp = temps_min
     
     
 print(f"Max temp = {max_temp}")
